@@ -3,3 +3,21 @@ img.software_imgs {
     width: 35px;
     height: 35px;
 }
+
+img.software_imgs_long {
+    float: left;
+    width: 80px;
+    height: 40px;
+}
+
+img.software_imgs_special {
+    float: left;
+    width: 100px;
+    height: 30px;
+}
+
+ul div {
+    margin: 7px;
+    margin-bottom: 19px;
+    padding: 10px;
+}
