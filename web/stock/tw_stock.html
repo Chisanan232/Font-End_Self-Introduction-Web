@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taiwan Stock Market</title>
+</head>
+<body>
+
+<h1 align="center">Taiwan Stock Market</h1>
+
+<form method="get" action="tw-stock-market-info.do">
+    Select Year <select name="year">
+        <option value="2020">2020 Year</option>
+        <option value="2019">2019 Year</option>
+        <option value="2018">2018 Year</option>
+    </select>
+
+    Select Month <select name="month">
+        <option value="12">December (12)</option>
+        <option value="11">November (11)</option>
+        <option value="10">October (10)</option>
+        <option value="9">September (9)</option>
+        <option value="8">August (8)</option>
+        <option value="7">July (7)</option>
+        <option value="6">June (6)</option>
+        <option value="5">May (5)</option>
+        <option value="4">April (4)</option>
+        <option value="3">March (3)</option>
+        <option value="2">February (2)</option>
+        <option value="1">January (1)</option>
+    </select>
+
+<!--    Select Day <select name="day">-->
+<!--        <option value="2020">2020 Year</option>-->
+<!--        <option value="2019">2019 Year</option>-->
+<!--        <option value="2018">2018 Year</option>-->
+<!--    </select>-->
+    Entry Stock Symbol <input name="stock_symbol" type="text">
+
+    <input type="submit">
+</form>
+
+</body>
+</html>
