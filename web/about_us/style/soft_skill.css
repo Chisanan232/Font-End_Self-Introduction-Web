@@ -4,6 +4,23 @@ ul div {
     padding: 10px;
 }
 
+li.skill_range {
+    font-size: x-large;
+}
+
+li.range_title {
+    font-size: large;
+}
+
+ul.software_skill {
+    padding: 20px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 11px;
+}
+
 img.software_imgs {
     float: left;
     width: 35px;
